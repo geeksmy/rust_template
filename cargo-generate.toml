@@ -10,7 +10,7 @@ prompt = "Rust edition 版本"
 default = "2024"
 choices = ["2021", "2024"]
 
-[placeholders.authors]
+[placeholders.author]
 type = "string"
 prompt = "作者名称"
 
