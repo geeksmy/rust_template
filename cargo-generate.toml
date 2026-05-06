@@ -2,7 +2,7 @@
 
 [placeholders.repo-url]
 type = "string"
-prompt = "GitHub 仓库 URL（例如 https://github.com/username/repo）"
+prompt = "GitHub HTTPS 地址（用于 changelog/deny 链接，例如 https://github.com/username/repo）"
 
 [placeholders.edition]
 type = "string"
