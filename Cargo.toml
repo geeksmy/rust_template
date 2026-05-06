@@ -1,9 +1,10 @@
-[package]
-name = "{{project-name}}"
+[workspace]
+members = ["crates/*"]
+resolver = "2"
+
+[workspace.package]
 version = "0.1.0"
 edition = "{{edition}}"
 license = "MIT"
-authors = ["{{authors}} {{email}}"]
+authors = ["{{authors}} <{{email}}>"]
 description = "{{description}}"
-
-[dependencies]
