@@ -1,7 +1,9 @@
 [package]
-name = "template"
+name = "{{project-name}}"
 version = "0.1.0"
-edition = "2024"
+edition = "{{edition}}"
 license = "MIT"
+authors = ["{{authors}} {{email}}"]
+description = "{{description}}"
 
 [dependencies]

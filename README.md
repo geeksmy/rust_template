@@ -34,10 +34,10 @@ cargo generate 是一个用于生成项目模板的工具。它可以使用已�
 cargo install cargo-generate
 ```
 
-在我们的课程中，新的项目会使用 `geeksmy/rust_template` 模版生成基本的代码：
+使用 `cargo generate` 从模板创建新项目：
 
 ```bash
-cargo generate geeksmy/rust_template
+cargo generate --git {{repo-url}} --name {{project-name}}
 ```
 
 ### 安装 pre-commit

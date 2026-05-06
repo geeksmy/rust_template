@@ -46,7 +46,7 @@ footer = """
 trim = true
 # 后处理器
 postprocessors = [
-    { pattern = '\$REPO', replace = "https://github.com/geeksmy/rcli" }, # 替换代码库 URL
+    { pattern = '\$REPO', replace = "{{repo-url}}" }, # 替换代码库 URL
 ]
 
 [git]
@@ -58,7 +58,7 @@ filter_unconventional = false
 split_commits = false
 # 用于预处理提交信息的正则表达式
 commit_preprocessors = [
-    # { pattern = '\((\w+\s)?#([0-9]+)\)', replace = "([#${2}](https://github.com/geeksmy/rcli/issues/${2}))"}, # 替换问题编号
+    # { pattern = '\((\w+\s)?#([0-9]+)\)', replace = "([#${2}]({{repo-url}}/issues/${2}))"}, # 替换问题编号
 ]
 # 用于解析和分组提交记录的正则表达式
 commit_parsers = [
