@@ -37,8 +37,10 @@ cargo install cargo-generate
 使用 `cargo generate` 从模板创建新项目：
 
 ```bash
-cargo generate --git {{repo-url}} --name {{project-name}}
+cargo generate geeksmy/rust_template
 ```
+
+项目生成后，请手动将 `cliff.toml` 中的 `REPO_URL_HERE` 替换为你的 GitHub HTTPS 地址。
 
 ### 安装 pre-commit
 
