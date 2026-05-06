@@ -6,5 +6,5 @@ resolver = "2"
 version = "0.1.0"
 edition = "{{edition}}"
 license = "MIT"
-authors = ["{{authors}} <{{email}}>"]
+authors = ["{{author}} <{{email}}>"]
 description = "{{description}}"

@@ -10,14 +10,14 @@ prompt = "Rust edition 版本"
 default = "2024"
 choices = ["2021", "2024"]
 
-[placeholders.authors]
+[placeholders.description]
+type = "string"
+prompt = "项目描述"
+
+[placeholders.author]
 type = "string"
 prompt = "作者名称"
 
 [placeholders.email]
 type = "string"
 prompt = "作者邮箱"
-
-[placeholders.description]
-type = "string"
-prompt = "项目描述"
