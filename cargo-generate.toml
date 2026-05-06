@@ -1,4 +1,7 @@
 [template]
+exclude = [
+    "cliff.toml",
+]
 
 [placeholders.repo-url]
 type = "string"
